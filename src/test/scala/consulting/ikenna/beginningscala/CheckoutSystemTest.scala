@@ -14,7 +14,6 @@ class CheckoutSystemTest extends FreeSpec with Matchers {
     */
 
   "Checkout System" - {
-
     "should have a total of zero when input is empty" in {
       CheckoutSystem.getTotal("") should be(0)
     }

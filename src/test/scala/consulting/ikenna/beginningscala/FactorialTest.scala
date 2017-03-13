@@ -5,7 +5,6 @@ import org.scalatest.{FreeSpec, Matchers}
 
 class FactorialTest extends FreeSpec with Matchers {
 
-
   "Write a factorial function that is not tail recursive" - {
     "1 factorial should be 1" in {
       Factorial.nonTailRecursiveFactorial(1) shouldBe 1
@@ -19,7 +18,7 @@ class FactorialTest extends FreeSpec with Matchers {
       Factorial.nonTailRecursiveFactorial(3) shouldBe 6
     }
 
-    "4 factorial should be 24" in {
+    "4 factorial should be 24" in{
       Factorial.nonTailRecursiveFactorial(4) shouldBe 24
     }
 

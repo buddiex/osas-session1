@@ -16,7 +16,7 @@ class TemperatureConversionTest extends FreeSpec with Matchers {
         TemperatureConverter.centigradeToFahrenheit(0) shouldBe 32
       }
       "25°C is 77°F" in {
-        TemperatureConverter.centigradeToFahrenheit(25) shouldBe 75
+        TemperatureConverter.centigradeToFahrenheit(25) shouldBe 77
       }
     }
 
